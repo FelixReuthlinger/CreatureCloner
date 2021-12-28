@@ -15,6 +15,7 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <TargetFrameworkProfile />
+    <LangVersion>10</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -88,9 +89,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CreatureCloner.cs" />
+    <Compile Include="CreatureClonerPlugin.cs" />
+    <Compile Include="Model\CreatureModel.cs" />
+    <Compile Include="Model\ItemSetsModel.cs" />
+    <Compile Include="Model\Util.cs" />
     <Compile Include="Properties\IgnoreAccessModifiers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CreatureReader.cs" />
+    <Compile Include="CreatureWriter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

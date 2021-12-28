@@ -1,14 +1,13 @@
-﻿# JotunnModStub
-Upon building for release, this README.md is copied into the `Package` folder for thunderstore packaging. Remember to also edit the manifest.json and supply your own mod icon.
-
-## Installation (manual)
-
+﻿# Creature Cloner
 
 ## Features
 
 
 ## Changelog
 
+* 0.1.0 -> initial release
 
-## Known issues
-You can find the github at:
+## Contact
+
+* https://github.com/FelixReuthlinger/CreatureCloner
+* Discord: Flux#0062 (you can find me around some of the Valheim modding discords, too)

@@ -1,10 +1,10 @@
 ﻿{
-  "name": "JotunnModStub",
-  "description": "",
-  "version_number": "0.0.1",
-  "website_url": "",
+  "name": "CreatureCloner",
+  "description": "A simple way to clone existing creatures and setting different config values.",
+  "version_number": "0.1.0",
+  "website_url": "https://github.com/FelixReuthlinger/CreatureCloner",
   "dependencies": [
-    "denikson-BepInExPack_Valheim-5.4.1502",
-    ""
+    "ValheimModding-Jotunn-2.4.5",
+    "denikson-BepInExPack_Valheim-5.4.1502"
   ]
 }
